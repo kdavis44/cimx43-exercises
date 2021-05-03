@@ -8,6 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -15,16 +19,30 @@
 }
 
 :root{
-  --background: ;
+  --background: white;
   --textcolor: #f26419;
 }
 
+html{
+  background-color: white;
+  color: white;
+}
+
+a{
+  color: black;
+}
+
+
+
+
 body{
   font-family: 'Bebas Neue', cursive;
+
 }
 
 header{
   padding: 50px;
+  color: black;
 }
 
 header h1{
@@ -47,6 +65,7 @@ header ul li {
 main{
   padding: 150px;
   padding-top: 50px;
+    background-color: #575A5E;
 }
 
 img{
@@ -56,16 +75,20 @@ img{
 
 h2{
   font-size: 100px;
+  font-family: 'Bangers', cursive;
 }
 #podcast{
   float: right;
 }
 
+
+
 .me {
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: 'New Tegomin', serif;
 }
 
 .height{
@@ -185,6 +208,11 @@ h2{
 .column {
   float: left;
   width: 30%;
+
+}
+.row{
+  width: 100%;
+
 }
 .column img {
   width: 100%;
@@ -214,6 +242,7 @@ h2{
   max-width: 1200px;
 }
 
+
 /* The Close Button */
 .close {
   color: white;
@@ -234,6 +263,7 @@ h2{
 /* Hide the slides by default */
 .mySlides2 {
   display: none;
+
 }
 
 /* Next & previous buttons */
